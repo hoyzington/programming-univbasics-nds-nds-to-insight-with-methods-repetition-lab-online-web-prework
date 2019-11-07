@@ -22,7 +22,7 @@ def directors_totals(source)
   dir_index = 0
   while dir_index < source.size do
 #    director = source[dir_index]
-    result[director[:name]] = gross_for_director(source[dir_index])
+    result[source[dir_index][:name]] = gross_for_director(source[dir_index])
     dir_index += 1
   end
   result
