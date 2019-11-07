@@ -36,6 +36,7 @@ def list_of_directors(source)
   i = 0
   while i < source.size do
     dir_array[i] = source[i][:name]
+    i += 1
   end
   dir_array
 end
